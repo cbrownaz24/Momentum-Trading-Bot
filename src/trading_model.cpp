@@ -3,6 +3,8 @@
 #include <dlib/svm_threaded.h>
 #include <dlib/data_io.h>
 
+using namespace dlib;
+
 TradingModel::TradingModel() {
     try {
         dlib::deserialize("ml_model.dat") >> df;
@@ -14,6 +16,7 @@ TradingModel::TradingModel() {
 
 void TradingModel::trainModel(const std::vector<sample_type>& samples, const std::vector<double>& labels) {
     try {
+        typedef radial_basis_kernel<sample_type> kernel_type;
         dlib::krr_trainer<kernel_type> trainer;
         df = trainer.train(samples, labels);
         dlib::serialize("ml_model.dat") << df;
