@@ -1,6 +1,6 @@
-#include "correlation.h"
-#include "data_fetcher.h"
-#include "logger.h"
+#include "../include/correlation.h"
+#include "../include/data_fetcher.h"
+#include "../include/logger.h"
 #include <Eigen/Dense>
 #include <cmath>
 #include <numeric>

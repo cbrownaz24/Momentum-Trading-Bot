@@ -1,0 +1,10 @@
+C:\Users\conno\Projects\MomentumProject\main.cpp;C:\Users\conno\Projects\MomentumProject\build\MomentumProject.dir\Debug\main.obj
+C:\Users\conno\Projects\MomentumProject\src\bollinger_bands.cpp;C:\Users\conno\Projects\MomentumProject\build\MomentumProject.dir\Debug\bollinger_bands.obj
+C:\Users\conno\Projects\MomentumProject\src\changepoint_detection.cpp;C:\Users\conno\Projects\MomentumProject\build\MomentumProject.dir\Debug\changepoint_detection.obj
+C:\Users\conno\Projects\MomentumProject\src\correlation.cpp;C:\Users\conno\Projects\MomentumProject\build\MomentumProject.dir\Debug\correlation.obj
+C:\Users\conno\Projects\MomentumProject\src\data_fetcher.cpp;C:\Users\conno\Projects\MomentumProject\build\MomentumProject.dir\Debug\data_fetcher.obj
+C:\Users\conno\Projects\MomentumProject\src\logger.cpp;C:\Users\conno\Projects\MomentumProject\build\MomentumProject.dir\Debug\logger.obj
+C:\Users\conno\Projects\MomentumProject\src\momentum_strategy.cpp;C:\Users\conno\Projects\MomentumProject\build\MomentumProject.dir\Debug\momentum_strategy.obj
+C:\Users\conno\Projects\MomentumProject\src\monte_carlo.cpp;C:\Users\conno\Projects\MomentumProject\build\MomentumProject.dir\Debug\monte_carlo.obj
+C:\Users\conno\Projects\MomentumProject\src\pairs_trading.cpp;C:\Users\conno\Projects\MomentumProject\build\MomentumProject.dir\Debug\pairs_trading.obj
+C:\Users\conno\Projects\MomentumProject\src\trading_model.cpp;C:\Users\conno\Projects\MomentumProject\build\MomentumProject.dir\Debug\trading_model.obj

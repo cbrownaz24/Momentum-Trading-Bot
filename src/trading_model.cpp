@@ -1,5 +1,5 @@
-#include "trading_model.h"
-#include "logger.h"
+#include "../include/trading_model.h"
+#include "../include/logger.h"
 #include <dlib/svm_threaded.h>
 #include <dlib/data_io.h>
 

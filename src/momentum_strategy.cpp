@@ -1,5 +1,5 @@
-#include "momentum_strategy.h"
-#include "logger.h"
+#include "../include/momentum_strategy.h"
+#include "../include/logger.h"
 
 MomentumSignal momentumStrategy(const std::vector<double>& prices, const BollingerBands& bands) {
     MomentumSignal signal;

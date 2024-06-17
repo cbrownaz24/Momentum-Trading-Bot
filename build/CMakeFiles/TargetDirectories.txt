@@ -1,0 +1,5 @@
+C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/MomentumProject.dir
+C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/conno/Projects/MomentumProject/build/dlib/CMakeFiles/dlib.dir
+C:/Users/conno/Projects/MomentumProject/build/dlib/CMakeFiles/ALL_BUILD.dir

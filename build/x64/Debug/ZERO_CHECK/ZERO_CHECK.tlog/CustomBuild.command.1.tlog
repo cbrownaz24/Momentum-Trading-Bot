@@ -1,0 +1,10 @@
+^C:\USERS\CONNO\PROJECTS\MOMENTUMPROJECT\BUILD\CMAKEFILES\F1FF7FFF67611CA7DAD8C5577B7C91B6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/conno/Projects/MomentumProject -BC:/Users/conno/Projects/MomentumProject/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/conno/Projects/MomentumProject/build/MomentumProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

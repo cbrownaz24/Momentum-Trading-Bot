@@ -1,5 +1,5 @@
-#include "changepoint_detection.h"
-#include "logger.h"
+#include "../include/changepoint_detection.h"
+#include "../include/logger.h"
 #include <numeric>
 #include <cmath>
 #include <iostream>

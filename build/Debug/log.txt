@@ -1,0 +1,24 @@
+ERROR: Failed to open file: AAPL.csv
+ERROR: Failed to open file: GOOG.csv
+ERROR: Failed to open file: MSFT.csv
+ERROR: Failed to open file: AMZN.csv
+ERROR: Failed to open file: FB.csv
+INFO: Correlated pairs identified.
+ERROR: Failed to open file: stock_data.csv
+ERROR: Failed to compute Bollinger Bands.
+ERROR: Failed to generate momentum signals.
+ERROR: Failed to load model: Unable to open ml_model.dat for reading.
+ERROR: Failed to train model: 
+
+Error detected at line 248.
+Error detected in file C:\Users\conno\Projects\MomentumProject\dlib\svm/krr_trainer.h.
+Error detected in function const struct dlib::decision_function<struct dlib::radial_basis_kernel<class dlib::matrix<double,3,1,class dlib::memory_manager_stateless_kernel_1<char>,struct dlib::row_major_layout> > > __cdecl dlib::krr_trainer<struct dlib::radial_basis_kernel<class dlib::matrix<double,3,1,class dlib::memory_manager_stateless_kernel_1<char>,struct dlib::row_major_layout> > >::do_train<class dlib::matrix_op<struct dlib::op_std_vect_to_mat<class std::vector<class dlib::matrix<double,3,1,class dlib::memory_manager_stateless_kernel_1<char>,struct dlib::row_major_layout>,class std::allocator<class dlib::matrix<double,3,1,class dlib::memory_manager_stateless_kernel_1<char>,struct dlib::row_major_layout> > > > >,class dlib::matrix_op<struct dlib::op_std_vect_to_mat<class std::vector<double,class std::allocator<double> > > >>(const class dlib::matrix_op<struct dlib::op_std_vect_to_mat<class std::vector<class dlib::matrix<double,3,1,class dlib::memory_manager_stateless_kernel_1<char>,struct dlib::row_major_layout>,class std::allocator<class dlib::matrix<double,3,1,class dlib::memory_manager_stateless_kernel_1<char>,struct dlib::row_major_layout> > > > > &,const class dlib::matrix_op<struct dlib::op_std_vect_to_mat<class std::vector<double,class std::allocator<double> > > > &,const bool,class std::vector<double,class std::allocator<double> > &,double &) const.
+
+Failing expression was is_learning_problem(x,y).
+	 decision_function krr_trainer::train(x,y)
+	 invalid inputs were given to this function
+	 is_vector(x): true
+	 is_vector(y): true
+	 x.size():     0
+	 y.size():     0
+

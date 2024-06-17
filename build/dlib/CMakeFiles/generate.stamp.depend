@@ -1,0 +1,29 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindBLAS.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindCUDA/select_compute_arch.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindGIF.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindJPEG.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPNG.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/SelectLibraryConfigurations.cmake
+C:/Users/conno/Projects/MomentumProject/dlib/CMakeLists.txt
+C:/Users/conno/Projects/MomentumProject/dlib/cmake_utils/check_if_neon_available.cmake
+C:/Users/conno/Projects/MomentumProject/dlib/cmake_utils/find_blas.cmake
+C:/Users/conno/Projects/MomentumProject/dlib/cmake_utils/find_libjpeg.cmake
+C:/Users/conno/Projects/MomentumProject/dlib/cmake_utils/find_libpng.cmake
+C:/Users/conno/Projects/MomentumProject/dlib/cmake_utils/find_libwebp.cmake
+C:/Users/conno/Projects/MomentumProject/dlib/cmake_utils/release_build_by_default
+C:/Users/conno/Projects/MomentumProject/dlib/cmake_utils/set_compiler_specific_options.cmake
+C:/Users/conno/Projects/MomentumProject/dlib/cmake_utils/use_cpp_11.cmake

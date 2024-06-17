@@ -1,5 +1,5 @@
-#include "monte_carlo.h"
-#include "logger.h"
+#include "../include/monte_carlo.h"
+#include "../include/logger.h"
 #include <random>
 #include <cmath>
 #include <iostream>

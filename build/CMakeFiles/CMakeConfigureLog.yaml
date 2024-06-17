@@ -1,0 +1,798 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+      Build started 6/16/2024 11:20:21 PM.
+      
+      Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.16
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/3.30.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+      Build started 6/16/2024 11:20:23 PM.
+      
+      Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\3.30.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.18
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/3.30.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-yd0llw"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-yd0llw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-yd0llw'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8c6ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:25 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd0llw\\cmTC_8c6ff.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8c6ff.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd0llw\\Debug\\".
+          Creating directory "cmTC_8c6ff.dir\\Debug\\cmTC_8c6ff.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8c6ff.dir\\Debug\\cmTC_8c6ff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8c6ff.dir\\Debug\\cmTC_8c6ff.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c6ff.dir\\Debug\\\\" /Fd"cmTC_8c6ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8c6ff.dir\\Debug\\\\" /Fd"cmTC_8c6ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd0llw\\Debug\\cmTC_8c6ff.exe" /INCREMENTAL /ILK:"cmTC_8c6ff.dir\\Debug\\cmTC_8c6ff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-yd0llw/Debug/cmTC_8c6ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-yd0llw/Debug/cmTC_8c6ff.lib" /MACHINE:X64  /machine:x64 cmTC_8c6ff.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8c6ff.vcxproj -> C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd0llw\\Debug\\cmTC_8c6ff.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8c6ff.dir\\Debug\\cmTC_8c6ff.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8c6ff.dir\\Debug\\cmTC_8c6ff.tlog\\cmTC_8c6ff.lastbuildstate".
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yd0llw\\cmTC_8c6ff.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.12
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-5s6fk4"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-5s6fk4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-5s6fk4'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_77bef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:26 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5s6fk4\\cmTC_77bef.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_77bef.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5s6fk4\\Debug\\".
+          Creating directory "cmTC_77bef.dir\\Debug\\cmTC_77bef.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_77bef.dir\\Debug\\cmTC_77bef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_77bef.dir\\Debug\\cmTC_77bef.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_77bef.dir\\Debug\\\\" /Fd"cmTC_77bef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_77bef.dir\\Debug\\\\" /Fd"cmTC_77bef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5s6fk4\\Debug\\cmTC_77bef.exe" /INCREMENTAL /ILK:"cmTC_77bef.dir\\Debug\\cmTC_77bef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-5s6fk4/Debug/cmTC_77bef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-5s6fk4/Debug/cmTC_77bef.lib" /MACHINE:X64  /machine:x64 cmTC_77bef.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_77bef.vcxproj -> C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5s6fk4\\Debug\\cmTC_77bef.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_77bef.dir\\Debug\\cmTC_77bef.tlog\\unsuccessfulbuild".
+          Touching "cmTC_77bef.dir\\Debug\\cmTC_77bef.tlog\\cmTC_77bef.lastbuildstate".
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5s6fk4\\cmTC_77bef.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.08
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "dlib/cmake_utils/set_compiler_specific_options.cmake:91 (check_type_size)"
+      - "dlib/CMakeLists.txt:33 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-n51a5a"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-n51a5a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-n51a5a'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_45632.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:28 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n51a5a\\cmTC_45632.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_45632.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n51a5a\\Debug\\".
+          Creating directory "cmTC_45632.dir\\Debug\\cmTC_45632.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_45632.dir\\Debug\\cmTC_45632.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_45632.dir\\Debug\\cmTC_45632.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45632.dir\\Debug\\\\" /Fd"cmTC_45632.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n51a5a\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45632.dir\\Debug\\\\" /Fd"cmTC_45632.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n51a5a\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n51a5a\\Debug\\cmTC_45632.exe" /INCREMENTAL /ILK:"cmTC_45632.dir\\Debug\\cmTC_45632.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-n51a5a/Debug/cmTC_45632.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-n51a5a/Debug/cmTC_45632.lib" /MACHINE:X64  /machine:x64 cmTC_45632.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_45632.vcxproj -> C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n51a5a\\Debug\\cmTC_45632.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_45632.dir\\Debug\\cmTC_45632.tlog\\unsuccessfulbuild".
+          Touching "cmTC_45632.dir\\Debug\\cmTC_45632.tlog\\cmTC_45632.lastbuildstate".
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n51a5a\\cmTC_45632.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.11
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "dlib/cmake_utils/set_compiler_specific_options.cmake:91 (check_type_size)"
+      - "dlib/CMakeLists.txt:33 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-v35ihp"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-v35ihp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-v35ihp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bf23a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:30 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v35ihp\\cmTC_bf23a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bf23a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v35ihp\\Debug\\".
+          Creating directory "cmTC_bf23a.dir\\Debug\\cmTC_bf23a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bf23a.dir\\Debug\\cmTC_bf23a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bf23a.dir\\Debug\\cmTC_bf23a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bf23a.dir\\Debug\\\\" /Fd"cmTC_bf23a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v35ihp\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bf23a.dir\\Debug\\\\" /Fd"cmTC_bf23a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v35ihp\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v35ihp\\Debug\\cmTC_bf23a.exe" /INCREMENTAL /ILK:"cmTC_bf23a.dir\\Debug\\cmTC_bf23a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-v35ihp/Debug/cmTC_bf23a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-v35ihp/Debug/cmTC_bf23a.lib" /MACHINE:X64  /machine:x64 cmTC_bf23a.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_bf23a.vcxproj -> C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v35ihp\\Debug\\cmTC_bf23a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bf23a.dir\\Debug\\cmTC_bf23a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bf23a.dir\\Debug\\cmTC_bf23a.tlog\\cmTC_bf23a.lastbuildstate".
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v35ihp\\cmTC_bf23a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.18
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "dlib/cmake_utils/set_compiler_specific_options.cmake:91 (check_type_size)"
+      - "dlib/CMakeLists.txt:33 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-w10qv3"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-w10qv3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-w10qv3'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46c62.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:32 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w10qv3\\cmTC_46c62.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_46c62.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w10qv3\\Debug\\".
+          Creating directory "cmTC_46c62.dir\\Debug\\cmTC_46c62.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_46c62.dir\\Debug\\cmTC_46c62.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_46c62.dir\\Debug\\cmTC_46c62.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46c62.dir\\Debug\\\\" /Fd"cmTC_46c62.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w10qv3\\CheckIncludeFile.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46c62.dir\\Debug\\\\" /Fd"cmTC_46c62.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w10qv3\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w10qv3\\Debug\\cmTC_46c62.exe" /INCREMENTAL /ILK:"cmTC_46c62.dir\\Debug\\cmTC_46c62.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-w10qv3/Debug/cmTC_46c62.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-w10qv3/Debug/cmTC_46c62.lib" /MACHINE:X64  /machine:x64 cmTC_46c62.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_46c62.vcxproj -> C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w10qv3\\Debug\\cmTC_46c62.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_46c62.dir\\Debug\\cmTC_46c62.tlog\\unsuccessfulbuild".
+          Touching "cmTC_46c62.dir\\Debug\\cmTC_46c62.tlog\\cmTC_46c62.lastbuildstate".
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w10qv3\\cmTC_46c62.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.13
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:147 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckTypeSize.cmake:272 (__check_type_size_impl)"
+      - "dlib/cmake_utils/set_compiler_specific_options.cmake:91 (check_type_size)"
+      - "dlib/CMakeLists.txt:33 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-vzi3ic"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-vzi3ic"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "HAVE_SIZE_OF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-vzi3ic'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_71bd8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:34 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vzi3ic\\cmTC_71bd8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_71bd8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vzi3ic\\Debug\\".
+          Creating directory "cmTC_71bd8.dir\\Debug\\cmTC_71bd8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_71bd8.dir\\Debug\\cmTC_71bd8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_71bd8.dir\\Debug\\cmTC_71bd8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71bd8.dir\\Debug\\\\" /Fd"cmTC_71bd8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vzi3ic\\SIZE_OF_VOID_PTR.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71bd8.dir\\Debug\\\\" /Fd"cmTC_71bd8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vzi3ic\\SIZE_OF_VOID_PTR.c"
+          SIZE_OF_VOID_PTR.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vzi3ic\\Debug\\cmTC_71bd8.exe" /INCREMENTAL /ILK:"cmTC_71bd8.dir\\Debug\\cmTC_71bd8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-vzi3ic/Debug/cmTC_71bd8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-vzi3ic/Debug/cmTC_71bd8.lib" /MACHINE:X64  /machine:x64 cmTC_71bd8.dir\\Debug\\SIZE_OF_VOID_PTR.obj
+          cmTC_71bd8.vcxproj -> C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vzi3ic\\Debug\\cmTC_71bd8.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_71bd8.dir\\Debug\\cmTC_71bd8.tlog\\unsuccessfulbuild".
+          Touching "cmTC_71bd8.dir\\Debug\\cmTC_71bd8.tlog\\cmTC_71bd8.lastbuildstate".
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vzi3ic\\cmTC_71bd8.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.10
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "dlib/CMakeLists.txt:485 (include)"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/dlib/cmake_utils/test_for_neon"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/dlib/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/dlib/neon_test_build'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:36 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\ALL_BUILD.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "x64\\Debug\\ZERO_CHECK\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          Creating "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Deleting file "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+          Touching "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\ZERO_CHECK.vcxproj" (default targets).
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\ALL_BUILD.vcxproj" (1) is building "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\neon_test.vcxproj" (3) on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "neon_test.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\Debug\\".
+          Creating directory "neon_test.dir\\Debug\\neon_test.tlog\\".
+        InitializeBuildStatus:
+          Creating "neon_test.dir\\Debug\\neon_test.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "neon_test.dir\\Debug\\neon_test.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule C:/Users/conno/Projects/MomentumProject/dlib/cmake_utils/test_for_neon/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"neon_test.dir\\Debug\\\\" /Fd"C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\Debug\\neon_test.pdb" /external:W3 /Gd /TP /errorReport:queue C:\\Users\\conno\\Projects\\MomentumProject\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp
+          neon_test.cpp
+        C:\\Users\\conno\\Projects\\MomentumProject\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp(3,1): error C1189: #error:  "No NEON" [C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\neon_test.vcxproj]
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\neon_test.vcxproj" (default targets) -- FAILED.
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\ALL_BUILD.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\ALL_BUILD.vcxproj" (default target) (1) ->
+        "C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\neon_test.vcxproj" (default target) (3) ->
+        (ClCompile target) -> 
+          C:\\Users\\conno\\Projects\\MomentumProject\\dlib\\cmake_utils\\test_for_neon\\neon_test.cpp(3,1): error C1189: #error:  "No NEON" [C:\\Users\\conno\\Projects\\MomentumProject\\build\\dlib\\neon_test_build\\neon_test.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.27
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindBLAS.cmake:377 (check_function_exists)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindBLAS.cmake:421 (check_blas_libraries)"
+      - "dlib/cmake_utils/find_blas.cmake:431 (find_package)"
+      - "dlib/CMakeLists.txt:588 (include)"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-zupquc"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-zupquc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-zupquc'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b6a23.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:37 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\cmTC_b6a23.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b6a23.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\Debug\\".
+          Creating directory "cmTC_b6a23.dir\\Debug\\cmTC_b6a23.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b6a23.dir\\Debug\\cmTC_b6a23.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b6a23.dir\\Debug\\cmTC_b6a23.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6a23.dir\\Debug\\\\" /Fd"cmTC_b6a23.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6a23.dir\\Debug\\\\" /Fd"cmTC_b6a23.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\Debug\\cmTC_b6a23.exe" /INCREMENTAL /ILK:"cmTC_b6a23.dir\\Debug\\cmTC_b6a23.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-zupquc/Debug/cmTC_b6a23.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-zupquc/Debug/cmTC_b6a23.lib" /MACHINE:X64  /machine:x64 cmTC_b6a23.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol sgemm_ referenced in function main [C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\cmTC_b6a23.vcxproj]
+        C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\Debug\\cmTC_b6a23.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\cmTC_b6a23.vcxproj]
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\cmTC_b6a23.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\cmTC_b6a23.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol sgemm_ referenced in function main [C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\cmTC_b6a23.vcxproj]
+          C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\Debug\\cmTC_b6a23.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zupquc\\cmTC_b6a23.vcxproj]
+        
+            0 Warning(s)
+            2 Error(s)
+        
+        Time Elapsed 00:00:01.03
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindBLAS.cmake:473 (find_package)"
+      - "dlib/cmake_utils/find_blas.cmake:431 (find_package)"
+      - "dlib/CMakeLists.txt:588 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-rzc4d6"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-rzc4d6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-rzc4d6'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a11f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:39 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rzc4d6\\cmTC_a11f8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a11f8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rzc4d6\\Debug\\".
+          Creating directory "cmTC_a11f8.dir\\Debug\\cmTC_a11f8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a11f8.dir\\Debug\\cmTC_a11f8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a11f8.dir\\Debug\\cmTC_a11f8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a11f8.dir\\Debug\\\\" /Fd"cmTC_a11f8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rzc4d6\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a11f8.dir\\Debug\\\\" /Fd"cmTC_a11f8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rzc4d6\\src.c"
+          src.c
+        C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rzc4d6\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rzc4d6\\cmTC_a11f8.vcxproj]
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rzc4d6\\cmTC_a11f8.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rzc4d6\\cmTC_a11f8.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rzc4d6\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rzc4d6\\cmTC_a11f8.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.74
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindBLAS.cmake:473 (find_package)"
+      - "dlib/cmake_utils/find_blas.cmake:431 (find_package)"
+      - "dlib/CMakeLists.txt:588 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-ci2ve1"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-ci2ve1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-ci2ve1'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_48177.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:40 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci2ve1\\cmTC_48177.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_48177.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci2ve1\\Debug\\".
+          Creating directory "cmTC_48177.dir\\Debug\\cmTC_48177.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_48177.dir\\Debug\\cmTC_48177.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_48177.dir\\Debug\\cmTC_48177.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_48177.dir\\Debug\\\\" /Fd"cmTC_48177.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci2ve1\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_48177.dir\\Debug\\\\" /Fd"cmTC_48177.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci2ve1\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci2ve1\\Debug\\cmTC_48177.exe" /INCREMENTAL /ILK:"cmTC_48177.dir\\Debug\\cmTC_48177.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-ci2ve1/Debug/cmTC_48177.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-ci2ve1/Debug/cmTC_48177.lib" /MACHINE:X64  /machine:x64 cmTC_48177.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci2ve1\\cmTC_48177.vcxproj]
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci2ve1\\cmTC_48177.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci2ve1\\cmTC_48177.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ci2ve1\\cmTC_48177.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.90
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindBLAS.cmake:473 (find_package)"
+      - "dlib/cmake_utils/find_blas.cmake:431 (find_package)"
+      - "dlib/CMakeLists.txt:588 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-uh2c6s"
+      binary: "C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-uh2c6s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-uh2c6s'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d12e8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.10.4+10fbfbf2e for .NET Framework
+        Build started 6/16/2024 11:20:42 PM.
+        
+        Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uh2c6s\\cmTC_d12e8.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d12e8.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uh2c6s\\Debug\\".
+          Creating directory "cmTC_d12e8.dir\\Debug\\cmTC_d12e8.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d12e8.dir\\Debug\\cmTC_d12e8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d12e8.dir\\Debug\\cmTC_d12e8.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d12e8.dir\\Debug\\\\" /Fd"cmTC_d12e8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uh2c6s\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d12e8.dir\\Debug\\\\" /Fd"cmTC_d12e8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uh2c6s\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uh2c6s\\Debug\\cmTC_d12e8.exe" /INCREMENTAL /ILK:"cmTC_d12e8.dir\\Debug\\cmTC_d12e8.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-uh2c6s/Debug/cmTC_d12e8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/conno/Projects/MomentumProject/build/CMakeFiles/CMakeScratch/TryCompile-uh2c6s/Debug/cmTC_d12e8.lib" /MACHINE:X64  /machine:x64 cmTC_d12e8.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uh2c6s\\cmTC_d12e8.vcxproj]
+        Done Building Project "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uh2c6s\\cmTC_d12e8.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uh2c6s\\cmTC_d12e8.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\conno\\Projects\\MomentumProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uh2c6s\\cmTC_d12e8.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.91
+        
+      exitCode: 1
+...
